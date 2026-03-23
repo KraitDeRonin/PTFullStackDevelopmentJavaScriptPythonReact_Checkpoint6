@@ -1,14 +1,5 @@
 # Checkpoint 6
 
-<style>
-table tr:nth-child(even) {
-    background-color: #f2f2f2; /* Gris claro */
-}
-table th {
-    background-color: #d9d9d9; /* Gris más oscuro para el encabezado */
-}
-</style>
-
 ## Teoría
 
 ### 1. ¿Para qué usamos Clases en Python?
