@@ -106,7 +106,7 @@ En el estándar **REST** (**Representational State Transfer**), los verbos HTTP 
 
 Para garantizar la integridad de estos procesos, se aplica el principio de **Idempotencia** (o Resultado Único), el cual asegura que realizar una misma operación varias veces produzca el mismo efecto que una sola vez. Mientras que los métodos ```GET``` y ```DELETE``` **son idempotentes**  para evitar duplicados o errores accidentales ante reintentos de red, el **método ```POST``` no lo es**, ya que su función es generar un nuevo recurso con cada ejecución.
 
-![¿¿Cuáles son los tres verbos fundamentales de una API??](/Checkpoint6/images/clases_python_3.png "¿Q¿Cuáles son los tres verbos fundamentales de una API??")
+![¿Cuáles son los tres verbos fundamentales de una API?](/Checkpoint6/images/clases_python_3.png "¿Cuáles son los tres verbos fundamentales de una API??")
 
 **El método ```GET```: Recuperar información**
 
