@@ -37,7 +37,7 @@ Su adopción responde a la necesidad de crear software robusto y mantenible. Al 
 
 * **Facilitar el mantenimiento**: Cualquier modificación en la lógica de una entidad se centraliza en su definición de clase, impactando de forma coherente a todas sus instancias.
 
-![¿Para qué usamos Clases en Python?](/Checkpoint6/images/clases_python.png "¿Para qué usamos Clases en Python?")
+![¿Para qué usamos Clases en Python?](/images/clases_python.png "¿Para qué usamos Clases en Python?")
 
 |**Código Python** |
 |----------------------|
@@ -80,7 +80,7 @@ Al crear algo como ```mi_objeto = Clase(valor)```, Python realiza internamente d
 
 **Automatización**: No es necesario llamar al método explícitamente (como se haría con un método normal). Su ejecución es parte del ciclo de vida natural de cualquier objeto en Python.
 
-![¿Qué método se ejecuta automáticamente cuando se crea una instancia de una clase?](/Checkpoint6/images/clases_python_2.png "¿Qué método se ejecuta automáticamente cuando se crea una instancia de una clase?")
+![¿Qué método se ejecuta automáticamente cuando se crea una instancia de una clase?](/images/clases_python_2.png "¿Qué método se ejecuta automáticamente cuando se crea una instancia de una clase?")
 
 |**Código Python** |
 |----------------------|
@@ -106,7 +106,7 @@ En el estándar **REST** (**Representational State Transfer**), los verbos HTTP 
 
 Para garantizar la integridad de estos procesos, se aplica el principio de **Idempotencia** (o Resultado Único), el cual asegura que realizar una misma operación varias veces produzca el mismo efecto que una sola vez. Mientras que los métodos ```GET``` y ```DELETE``` **son idempotentes**  para evitar duplicados o errores accidentales ante reintentos de red, el **método ```POST``` no lo es**, ya que su función es generar un nuevo recurso con cada ejecución.
 
-![¿Cuáles son los tres verbos fundamentales de una API?](/Checkpoint6/images/clases_python_3.png "¿Cuáles son los tres verbos fundamentales de una API??")
+![¿Cuáles son los tres verbos fundamentales de una API?](/images/clases_python_3.png "¿Cuáles son los tres verbos fundamentales de una API??")
 
 **El método ```GET```: Recuperar información**
 
@@ -212,7 +212,7 @@ ficha_cliente = {
   }
 }
 ```
-![¿Qué es MongoDB una base de datos SQL o NoSQL?](/Checkpoint6/images/clases_python_4.png "¿Qué es MongoDB una base de datos SQL o NoSQL?")
+![¿Qué es MongoDB una base de datos SQL o NoSQL?](/images/clases_python_4.png "¿Qué es MongoDB una base de datos SQL o NoSQL?")
 
 ***
 
@@ -226,7 +226,7 @@ La importancia de las APIs radica en su capacidad para fomentar el desacoplamien
 
 Para entender cómo se construye este **contrato** en el mundo real, podemos observar un ejemplo sencillo utilizando Flask (un micro-framework de Python diseñado para crear APIs de forma rápida). En el siguiente código, definimos cómo el servidor "escucha" las peticiones y responde ante ellas siguiendo la lógica de nuestras clases.
 
-![¿Qué es MongoDB una base de datos SQL o NoSQL?](/Checkpoint6/images/clases_python_5.png "¿Qué es MongoDB una base de datos SQL o NoSQL?")
+![¿Qué es MongoDB una base de datos SQL o NoSQL?](/images/clases_python_5.png "¿Qué es MongoDB una base de datos SQL o NoSQL?")
 
 |**Código Python** |
 |----------------------|
@@ -270,7 +270,7 @@ Originalmente nació como una extensión de navegador, pero hoy en día es una p
 
 Una de las mayores ventajas de Postman es que permite inspeccionar no solo el cuerpo de la respuesta (el JSON o diccionario de datos), sino también las cabeceras (headers), las cookies y el tiempo de respuesta del servidor. Además, permite organizar estas pruebas en Colecciones, lo que facilita el trabajo en equipo y la automatización de flujos. En lugar de usar la terminal con comandos complejos como curl, Postman ofrece una interfaz gráfica donde guardar configuraciones, simular diferentes entornos (como "Desarrollo" o "Producción") y compartir la documentación técnica de forma instantánea.
 
-![¿Qué es Postman?](/Checkpoint6/images_2/clases_python_6.png "¿Qué es Postman?")
+![¿Qué es Postman?](/images_2/clases_python_6.png "¿Qué es Postman?")
 
 
 **Ejemplo de uso práctico con Python**
@@ -305,7 +305,7 @@ El **polimorfismo** es uno de los pilares de la Programación Orientada a Objeto
 
 El polimorfismo  permite tratar a objetos de diferentes clases de manera uniforme si comparten un comportamiento común. Su utilidad reside en que se pueden escribir funciones que acepten un "tipo genérico" de objeto y  que cada objeto ejecutará su propia versión de la acción solicitada. En lenguajes como Python, esto se lleva al extremo con el concepto de Duck Typing ("si camina como un pato y grazna como un pato, entonces es un pato"), donde lo que importa no es la clase exacta del objeto, sino que tenga implementados los métodos necesarios.
 
-![¿Qué es el polimorfismo?](/Checkpoint6/images_2//clases_python_7.png "¿Qué es el polimorfismo?")
+![¿Qué es el polimorfismo?](/images_2//clases_python_7.png "¿Qué es el polimorfismo?")
 
 
 **Implementación práctica**
@@ -342,7 +342,7 @@ realizar_movimiento(mi_mascota) # Resultado: El pulperro avanza gateando...
 
 El término **Dunder** es una contracción de Double Underscore (doble guion bajo). Se refiere a un conjunto de métodos especiales predefinidos en Python que comienzan y terminan con ```__```, como por ejemplo ```__init__```, ```__str__``` o ```__add__```. Su propósito principal es permitir que nuestras propias clases se comporten como los tipos de datos integrados del lenguaje (como listas, diccionarios o números), facilitando lo que conocemos como sobrecarga de operadores y la emulación de comportamientos nativos.
 
-![¿Qué es un método Dunder?](/Checkpoint6/images_2/clases_python_8.png "¿Qué es un método Dunder?")
+![¿Qué es un método Dunder?](/images_2/clases_python_8.png "¿Qué es un método Dunder?")
 
 **¿Por qué son tan importantes?**
 
@@ -386,7 +386,7 @@ Un decorador es una función especial que permite modificar, extender o alterar 
 
 Visualmente, los decoradores se reconocen porque se aplican utilizando el símbolo ```@``` justo encima de la definición de una función. Esta sintaxis es lo que se conoce como "azúcar sintáctico", ya que hace que el código sea mucho más limpio y legible que si se hiciera la asignación de la función manualmente. Son herramientaspara aplicar lógica transversal en un proyecto, como la gestión de permisos, el registro de actividad (logging) o la medición del rendimiento.
 
-![¿Qué es un método Dunder?](/Checkpoint6/images_2/clases_python_9.png "¿Qué es un método Dunder?")
+![¿Qué es un método Dunder?](/images_2/clases_python_9.png "¿Qué es un método Dunder?")
 
 **Ejemplo práctico**
 
